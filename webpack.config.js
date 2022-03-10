@@ -12,7 +12,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: [path.resolve(__dirname, 'loaders/index.js'), path.resolve(__dirname, 'loaders/aloader.js')]
+                use: ['y-loader']
             }
         ]
     },

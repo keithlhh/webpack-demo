@@ -7,7 +7,7 @@
     "start": "npm run serve",
     "serve": "webpack serve --open",
     "watch": "webpack watch",
-    "build": "webpack"
+    "buyild": "webpack"
   },
   "author": "lhh",
   "license": "ISC",
@@ -16,7 +16,8 @@
     "lodash": "^4.17.21",
     "mobx": "^6.3.8",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "y-loader": "^1.0.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
